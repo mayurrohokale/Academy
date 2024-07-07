@@ -15,9 +15,9 @@ const CryptoDictionary = () => {
                 alt="Crypto Arcade"
                 className="w-full h-auto mx-auto rounded-xl"
               />
-              <button className="absolute inset-0 flex items-center justify-center text-green-500 text-2xl font-bold">
+              {/* <button className="absolute inset-0 flex items-center justify-center text-green-500 text-2xl font-bold">
                 PRESS START
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="flex justify-center space-x-4">

@@ -20,7 +20,7 @@ export default function Header() {
   };
 
   return (
-    <div className="bg-black flex flex-col w-full h-[64px]">
+    <div className="bg-black flex flex-col w-full h-[64px] fixed z-50 ">
       <div className="text-white flex flex-row justify-center gap-4 items-center my-auto">
         <div className="mx-4">
           <img src="./images/intract_text.png" alt="logo" />

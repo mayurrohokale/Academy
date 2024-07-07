@@ -12,13 +12,14 @@ export default function AcademyPage() {
       <div
         style={{
           backgroundImage: `url('./images/academy.png')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          width: "100%",
-          height: "100vh",
-        }}
+          // backgroundSize: "cover",
+          // backgroundPosition: "center",
+          // width: "100%",
+          // height: "100vh",
+        }} 
+       className="bg-no-repeat w-full  bg-cover bg-center h-[35vh] lg:h-[100vh] flex justify-center items-center "
       >
-        <div className="text-white flex flex-col gap-4 justify-center lg:justify-end h-full lg:pb-8 items-center">
+        <div className="text-white flex flex-col  gap-4 py-5 justify-center h-full  items-center">
           <div>
             <img
               src="./images/academylogo.gif"
@@ -47,7 +48,7 @@ export default function AcademyPage() {
           </button>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly  px-5 py-10  lg:px-10 lg:py-20 ">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly  px-5   lg:px-10 lg:py-20 ">
         <div className="">
           <Task />
         </div>
@@ -58,7 +59,7 @@ export default function AcademyPage() {
           
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly  px-5 py-10  lg:px-10 lg:py-20 ">
+      <div className="flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly  px-5 py-10  lg:px-10 lg:py-20 ">
         <div className="">
           
           <Card />
