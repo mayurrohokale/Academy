@@ -46,7 +46,7 @@ export default function Header() {
           <img src="./images/igtv.svg" alt="igtv" />
         </div>
         <div>
-          <button className="bg-white rounded-sm text-black text-[11px] lg:text-[16px] px-[10px]  lg:px-[25px] py-[7px] font-semibold">Sign In</button>
+          <button className="bg-white rounded-lg text-black text-[11px] lg:text-[16px] px-[10px]  lg:px-[25px] py-[7px] font-semibold">Sign In</button>
         </div>
         <div className="lg:hidden cursor-pointer text-[25px] text-white flex items-center" onClick={toggleMenu}>
               <MdMenu className="mr-1" /> 
