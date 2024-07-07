@@ -47,20 +47,27 @@ export default function AcademyPage() {
           </button>
         </div>
       </div>
-      <div className="relative m-36 h-[800px] ">
-        <div className="absolute top-0 left-0">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly  px-5 py-10  lg:px-10 lg:py-20 ">
+        <div className="">
           <Task />
         </div>
-        <div className="absolute top-44 right-0">
+        <div className="flex flex-col justify-center">
+         
           <Card />
+          
+          
         </div>
       </div>
-      <div className="relative m-36 h-[600px]">
-        <div className="absolute left-0 top-56 ">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly  px-5 py-10  lg:px-10 lg:py-20 ">
+        <div className="">
+          
           <Card />
         </div>
-        <div className="absolute top-0 left-[40%]">
-          <Task />
+        <div className="flex flex-col justify-center">
+         
+        <Task />
+          
+          
         </div>
       </div>
       <div>
