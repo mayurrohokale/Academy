@@ -40,7 +40,7 @@ export default function Header() {
           </nav>
         </div>
         <div className="align-items-center">
-          <input type="text" alt="searchbar" placeholder="Search for Ecosystem Trending" className="hidden lg:flex lg:px-[50px] xl:px-[74px] py-[10px] rounded-3xl border border-[#FFFFFF0D] bg-[#FFFFFF12]"  />
+          <input type="text" alt="searchbar" placeholder="Search for Ecosystem Trending, quests, etc." className="hidden lg:flex lg:px-[50px] xl:px-[74px] py-[10px] font-Outfit rounded-3xl border border-[#FFFFFF0D] bg-[#FFFFFF12]"  />
         </div>
         <div className="w-[30px] h-[30px] lg:w-[42px] lg:h-[42px] rounded-full p-2 border border-[#fa8922]">
           <img src="./images/igtv.svg" alt="igtv" />
