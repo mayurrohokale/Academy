@@ -25,7 +25,7 @@ export default function CryptoCreators() {
         <hr className="border-gray-600 mb-4"/>
       <h1 className="text-2xl text-center mb-2">Top Crypto Creators and Projects to Follow</h1>
       <p className="text-center text-[#FFFFFF66] mb-10">Answers to your crypto doubts, straight from the experts</p>
-      <div className="flex flex-wrap justify-center gap-4 px-4">
+      <div className="flex flex-wrap justify-center gap-4 px-4 ">
         {creators.map((creator, index) => (
           <div
             key={index}

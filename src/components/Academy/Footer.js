@@ -52,7 +52,7 @@ export default function Footer() {
         <p className="text-gray-400 text-sm mt-4">
           <strong>Disclaimer:</strong> Crypto Products, Virtual Digital Assets, and NFTs are unregulated and can be highly risky. There may be no regulatory recourse for any loss from such transactions. We advise the viewer to proceed with caution. Nothing in this website or any communication published by us amounts to, is intended to be, or should be construed as investment or purchase advice of any kind or financial advice or promotion under any applicable laws. Any decision made based on the content provided on this website or any communication published by us shall not be attributable to us.
         </p>
-        <p className="text-gray-400 text-center mt-4">CREATED BY <a href="#" className="text-white font-bold">INTRACT</a></p>
+        <p className="text-gray-400 text-center mt-4 font-Outfit">CREATED BY <a href="#" className="text-white font-bold">INTRACT</a></p>
         <div className="flex justify-center mt-4 space-x-4">
           <a href="#" className="text-blue-700"><FaTwitter size={24} /></a>
           <a href="#" className="text-blue-400"><FaDiscord size={24} /></a>

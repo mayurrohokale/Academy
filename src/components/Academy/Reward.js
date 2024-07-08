@@ -1,11 +1,12 @@
 import { HiOutlineInformationCircle } from "react-icons/hi";
+import CountdownTimer from "./Timer";
 
 export default function Reward() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center gap-12 font-Outfit">
       <div className="flex flex-col justify-center items-center text-white gap-2">
-        <div className="h-[164px] w-[320px] flex items-center justify-center text-xl bg-[#FFFFFF0D] text-[#00ff00] border border-[#FFFFFF33] rounded-xl">
-          Your first airdrop!
+        <div className="h-[164px] w-[320px] flex items-center justify-center text-xl bg-[#FFFFFF0D] border border-[#FFFFFF33] rounded-xl">
+           <CountdownTimer initialTime={55810} />
         </div>
         <div className="relative h-[476px] w-[320px] border rounded-xl bg-[#FFFFFF0D]">
           <img

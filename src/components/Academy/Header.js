@@ -40,7 +40,7 @@ export default function Header() {
           </nav>
         </div>
         <div className="align-items-center">
-          <input type="text" alt="searchbar" placeholder="Search for Ecosystem Trending" className="hidden lg:flex lg:px-[74px] py-[10px] rounded-3xl border border-[#FFFFFF0D] bg-[#FFFFFF12]"  />
+          <input type="text" alt="searchbar" placeholder="Search for Ecosystem Trending" className="hidden lg:flex lg:px-[50px] xl:px-[74px] py-[10px] rounded-3xl border border-[#FFFFFF0D] bg-[#FFFFFF12]"  />
         </div>
         <div className="w-[30px] h-[30px] lg:w-[42px] lg:h-[42px] rounded-full p-2 border border-[#fa8922]">
           <img src="./images/igtv.svg" alt="igtv" />
@@ -54,11 +54,11 @@ export default function Header() {
       </div>
       
 
-      <div className="lg:hidden z-10 top-12 right-0">
+      <div className="lg:hidden z-60 top-16 absolute right-0 w-[full] ">
         {menuOpen && (
-          <ul className="flex flex-col bg-white p-4">
+          <ul className="flex flex-col bg-black p-4">
             {MENU_ITEMS.map((item, index) => (
-              <li key={index} className="text-black text-[16px] font-Outfit font-bold hover:text-[#14B8A6] cursor-pointer">{item.title}</li>
+              <li key={index} className="text-white text-[16px] font-Outfit text-right font-semibold hover:text-[#14B8A6] cursor-pointer">{item.title}</li>
             ))}
           </ul>
         )}

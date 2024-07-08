@@ -3,8 +3,10 @@ import Task from "./Task";
 import Card from "./Card";
 import Reward from "./Reward";
 import Projects from './Projects';
-import Directory from './Directory';
-// Assuming you have the path image
+import Directory from './Dictionary';
+import Airdrop from "./Airdrop";
+import SecondCard from "./secondCard";
+
 
 export default function AcademyPage() {
   return (
@@ -62,11 +64,11 @@ export default function AcademyPage() {
       <div className="flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly  px-5 py-10  lg:px-10 lg:py-20 ">
         <div className="">
           
-          <Card />
+         <SecondCard />
         </div>
         <div className="flex flex-col justify-center">
          
-        <Task />
+        <Airdrop />
           
           
         </div>
