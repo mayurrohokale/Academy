@@ -6,7 +6,7 @@ export default function Reward() {
     <div className="flex flex-col md:flex-row items-center justify-center gap-12 font-Outfit">
       <div className="flex flex-col justify-center items-center text-white gap-2">
         <div className="h-[164px] w-[320px] flex items-center justify-center text-xl bg-[#FFFFFF0D] border border-[#FFFFFF33] rounded-xl">
-           <CountdownTimer initialTime={55810} />
+          <CountdownTimer initialTime={55810} />
         </div>
         <div className="relative h-[476px] w-[320px] border rounded-xl bg-[#FFFFFF0D]">
           <img
@@ -36,13 +36,16 @@ export default function Reward() {
           Free access to paid KOL (crypto earning) communities!
         </h1>
         <p className="text-sm mt-2">
-          Win access to exclusive earning communities of some of the greatest earners in crypto for a month, every 24 hours. Get access to unmatched insights, a close-knit community of the best airdrop earners, and more.
+          Win access to exclusive earning communities of some of the greatest
+          earners in crypto for a month, every 24 hours. Get access to unmatched
+          insights, a close-knit community of the best airdrop earners, and
+          more.
         </p>
         <p className="text-sm mt-2">
-          To win: make sure you've connected your Twitter and Discord accounts - and follow our criteria!
+          To win: make sure you've connected your Twitter and Discord accounts -
+          and follow our criteria!
         </p>
       </div>
-     
     </div>
   );
 }

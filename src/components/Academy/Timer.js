@@ -7,8 +7,8 @@ const CountdownTimer = ({ initialTime }) => {
     const interval = setInterval(() => {
       setTime((prevTime) => {
         if (prevTime > 0) return prevTime - 1;
-        clearInterval(interval);
-        return 0;
+        return initialTime;
+        
       });
     }, 1000);
 

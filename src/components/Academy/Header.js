@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MdFiberNew } from "react-icons/md";
 import { MdMenu } from "react-icons/md";
-import { IoMdSearch } from "react-icons/io";
+
 
 
 const MENU_ITEMS = [
